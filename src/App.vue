@@ -1,17 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- Usar o component no template -->
+  <TheHeader />
+  <Home />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TheHeader from "./components/TheHeader";
+import Home from "./components/HelloWorld";
+//Primeiro deve ser importado
 
+//Declara o component
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    TheHeader,
+    Home,
+  },
+  data() {
+    return {
+      showName: false,
+    };
+  },
+};
 </script>
 
 <style>
@@ -24,3 +34,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+./components/TheHeader.vue
