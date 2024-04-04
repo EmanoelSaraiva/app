@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: "App",
+  name: "TheHeader",
   data() {
     return {
       todos: {
