@@ -1,5 +1,6 @@
 <template>
   <!-- Propriedades computadas -->
+  <!-- Propriedades computadas serão reenderizadas apenas uma vez, a próxima reenderização só acontece quando ouver alguma alteração nos dados -->
   <div>Computed-Todo</div>
 
   {{ fullName }}

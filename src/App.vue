@@ -1,15 +1,17 @@
 <template>
   <!-- Usar o component no template -->
   <TheHeader />
-  <Home />
+  <ObserverS />
+  <!-- <Home />
   <br />
-  <Computed_Todo />
+  <Computed_Todo /> -->
 </template>
 
 <script>
-import TheHeader from "./components/TheHeader";
-import Home from "./components/HelloWorld";
-import Computed_Todo from "./components/Computeds";
+import TheHeader from "./components/TheHeader.vue";
+import ObserverS from "./components/ObserverS.vue";
+// import Home from "./components/HelloWorld";
+// import Computed_Todo from "./components/Computed_Todo";
 //Primeiro deve ser importado
 
 //Declara o component
@@ -17,8 +19,9 @@ export default {
   name: "App",
   components: {
     TheHeader,
-    Home,
-    Computed_Todo,
+    ObserverS,
+    // Home,
+    // Computed_Todo,
   },
   data() {},
 };
@@ -30,8 +33,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #cdd8e4;
+  background-color: #2c3e50;
 }
 </style>
 ./components/TheHeader.vue
